@@ -16,6 +16,7 @@ import requests
 import tensorflow.compat.v1 as tf
 from scipy import linalg
 from tqdm.auto import tqdm
+np.bool = np.bool_
 
 INCEPTION_V3_URL = "https://openaipublic.blob.core.windows.net/diffusion/jul-2021/ref_batches/classify_image_graph_def.pb"
 INCEPTION_V3_PATH = "classify_image_graph_def.pb"
